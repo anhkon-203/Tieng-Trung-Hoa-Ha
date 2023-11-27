@@ -1,0 +1,55 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SweetAlert2 for CF7\n"
+"POT-Creation-Date: 2018-11-09 14:09+0100\n"
+"PO-Revision-Date: 2018-11-09 14:16+0100\n"
+"Last-Translator: \n"
+"Language-Team: Akandor\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: plugin-sweetalert2-cf7.php\n"
+
+#: plugin-sweetalert2-cf7.php:72
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: plugin-sweetalert2-cf7.php:76
+msgid "Success Alert"
+msgstr "Erfolgsmeldung"
+
+#: plugin-sweetalert2-cf7.php:77 plugin-sweetalert2-cf7.php:81
+msgid "Timer (default: 3000ms)"
+msgstr "Timer (Standard: 3000ms)"
+
+#: plugin-sweetalert2-cf7.php:78 plugin-sweetalert2-cf7.php:82
+msgid "Title (default: none)"
+msgstr "Titel (Standard: kein)"
+
+#: plugin-sweetalert2-cf7.php:80
+msgid "Error Alert"
+msgstr "Fehlermeldung"
+
+#: plugin-sweetalert2-cf7.php:88
+msgid ""
+"Just activate it to replace CF7 default submission output by a SweetAlert2 "
+"pop up. The add-on will display the Contact Form 7 messages in the pop up."
+msgstr ""
+"Einfach aktivieren um die Standardausgabe von CF7 mit einem SweetAlert2 "
+"Pop-Up zu ersetzen. Dieses Add-On zeigt Contact Form 7 Meldungen in einem "
+"Pop-Up an."
+
+#: plugin-sweetalert2-cf7.php:89
+msgid "You also can customize duration and title of success/error alert."
+msgstr ""
+"Sie können auch die Dauer und den Titel der Erfolgs-/Fehlermeldung "
+"anpassen."
+
+#: plugin-sweetalert2-cf7.php:90
+msgid "Rate this plugin"
+msgstr "Bewerten Sie dieses Plugin"

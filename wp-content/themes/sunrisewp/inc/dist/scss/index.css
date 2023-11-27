@@ -1,0 +1,18 @@
+@font-face {
+  font-family: K2D-Bold;
+  font-display: swap;
+  src: url("../fonts/K2D-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: K2D-Regular;
+  font-display: swap;
+  src: url("../fonts/K2D-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: K2D-SemiBold;
+  font-display: swap;
+  src: url("../fonts/K2D-SemiBold.ttf") format("truetype"); }
+@font-face {
+  font-family: K2D-Medium;
+  font-display: swap;
+  src: url("../fonts/K2D-Medium.ttf") format("truetype"); }
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,18 @@
+@font-face {
+  font-family: Exo2-Bold;
+  font-display: swap;
+  src: url("../fonts/Exo2-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: Exo2-Regular;
+  font-display: swap;
+  src: url("../fonts/Exo2-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: Exo2-SemiBold;
+  font-display: swap;
+  src: url("../fonts/Exo2-SemiBold.ttf") format("truetype"); }
+@font-face {
+  font-family: Exo2-Medium;
+  font-display: swap;
+  src: url("../fonts/Exo2-Medium.ttf") format("truetype"); }
+
+/*# sourceMappingURL=index.css.map */

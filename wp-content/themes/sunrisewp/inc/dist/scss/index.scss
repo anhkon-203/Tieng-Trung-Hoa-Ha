@@ -1,0 +1,81 @@
+@font-face {
+    font-family: K2D-Bold;
+    font-display: swap;
+    src: url('../fonts/K2D-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: K2D-Regular;
+    font-display: swap;
+    src: url('../fonts/K2D-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: K2D-SemiBold;
+    font-display: swap;
+    src: url('../fonts/K2D-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: K2D-Medium;
+    font-display: swap;
+    src: url('../fonts/K2D-Medium.ttf') format('truetype');
+}
+
+$m-17: 1700px;
+$m-15: 1500px;
+$m-14: 1440px;
+$m-13: 1366px;
+$m-12: 1240px;
+$m-11: 1199px;
+$m-9: 991px;
+$m-7: 768px;
+$m-6: 667px;
+$m-4: 480px;
+
+@mixin Res($man) {
+    @if $man ==m-17 {
+        @media screen and (min-width: $m-15) and (max-width: $m-17) {
+            @content;
+        }
+    }
+
+    @else if $man ==m-14 {
+        @media screen and (max-width: $m-14) {
+            @content;
+        }
+    }
+
+    @else if $man ==m-12 {
+        @media screen and (max-width: $m-12) {
+            @content;
+        }
+    }
+
+    @else if $man ==m-11 {
+        @media screen and (max-width: $m-11) {
+            @content;
+        }
+    }
+
+    @else if $man ==m-9 {
+        @media screen and (max-width: $m-9) {
+            @content;
+        }
+    }
+
+    @else if $man ==m-7 {
+        @media screen and (max-width: $m-7) {
+            @content;
+        }
+    }
+
+    @else if $man ==m-6 {
+        @media screen and (max-width: $m-6) {
+            @content;
+        }
+    }
+
+    @else if $man ==m-4 {
+        @media screen and (max-width: $m-4) {
+            @content;
+        }
+    }
+}

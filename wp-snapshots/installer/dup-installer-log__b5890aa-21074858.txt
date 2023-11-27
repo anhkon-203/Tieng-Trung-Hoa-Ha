@@ -1,0 +1,412 @@
+[PHP ERR][WARN] MSG:file_exists(): open_basedir restriction in effect. File(/var/sentora/hostdata/thanhwebseo247/public_html/wp-config.php) is not within the allowed path(s): (/var/sentora/hostdata/thanhwebseo247/public_html/4words_wecan-group_info:/var/sentora/temp/) [CODE:2|FILE:/var/sentora/hostdata/thanhwebseo247/public_html/4words_wecan-group_info/dup-installer/classes/class.installer.state.php|LINE:57]
+[PHP ERR][WARN] MSG:file_exists(): open_basedir restriction in effect. File(/var/sentora/hostdata/thanhwebseo247/public_html/wp-config.php) is not within the allowed path(s): (/var/sentora/hostdata/thanhwebseo247/public_html/4words_wecan-group_info:/var/sentora/temp/) [CODE:2|FILE:/var/sentora/hostdata/thanhwebseo247/public_html/4words_wecan-group_info/dup-installer/ctrls/ctrl.s1.php|LINE:69]
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 08:48:29
+* VERSION: 1.3.22
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.2.7                                 |5.6.40
+OS__________________: WINNT                                 |Linux
+CREATED_____________: 2019-10-21 07:48:58
+WP VERSION__________: 5.2.4
+DUP VERSION_________: 1.3.22
+DB__________________: 10.1.34
+DB TABLES___________: 15
+DB ROWS_____________: 8,810
+DB FILE SIZE________: 4.13MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 5.6.40 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache
+DOC ROOT____________: "/var/sentora/hostdata/thanhwebseo247/public_html/4words_wecan-group_info"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://4words.wecan-group.info/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "20191021_4words_b5890aaa6af014812584_20191021074858_archive.zip"
+SIZE________________: 44.22MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+>>> Starting Shell-Exec Unzip:
+Command: unzip -o -qq '/var/sentora/hostdata/thanhwebseo247/public_html/4words_wecan-group_info/20191021_4words_b5890aaa6af014812584_20191021074858_archive.zip' -d '/var/sentora/hostdata/thanhwebseo247/public_html/4words_wecan-group_info' 2>&1
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 08:48:37 - RUNTIME: 8.2059 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 08:48:55
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.5.52 -- Build Server: 10.1.34
+FILE SIZE:	dup-database__b5890aa-21074858.sql (917.94KB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	NOT_SET
+NEW SQL FILE:	[/var/sentora/hostdata/thanhwebseo247/public_html/4words_wecan-group_info/dup-installer/dup-installer-data__b5890aa-21074858.sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.5.52] is less than the build version [10.1.34].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	142
+
+ws_commentmeta: (0)
+ws_comments: (1)
+ws_duplicator_packages: (0)
+ws_links: (0)
+ws_options: (265)
+ws_postmeta: (7887)
+ws_posts: (506)
+ws_term_relationships: (24)
+ws_term_taxonomy: (2)
+ws_termmeta: (0)
+ws_terms: (2)
+ws_usermeta: (31)
+ws_users: (1)
+ws_yoast_seo_links: (0)
+ws_yoast_seo_meta: (129)
+Removed '26' cache/transient rows
+
+INSERT DATA RUNTIME: 2.2395 sec.
+STEP-2 COMPLETE @ 08:48:57 - RUNTIME: 2.2773 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 08:49:43
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "4 Words"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "C:/xampp/htdocs/4words/"
+path_new______________: "/var/sentora/hostdata/thanhwebseo247/public_html/4words_wecan-group_info/"
+siteurl_______________: "http://4words.wecan-group.info"
+url_old_______________: "http://localhost:8888/4words"
+url_new_______________: "http://4words.wecan-group.info"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbhost________________: "localhost"
+dbuser________________: "4words"
+dbname________________: "thanhwebseo247_4words"
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "ws_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ws_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/4words/" =========================> "/var/sentora/hostdata/thanhwebseo247/public_html/4words_wecan-group_info/"
+	SEARCH  2:"C:\/xampp\/htdocs\/4words\/" =====================> "\/var\/sentora\/hostdata\/thanhwebseo247\/public_html\/4words_wecan-group_info\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2F4words%2F" ===============> "%2Fvar%2Fsentora%2Fhostdata%2Fthanhwebseo247%2Fpublic_html%2F4words_wecan-group_info%2F"
+	SEARCH  4:"C:\xampp\htdocs\4words" ==========================> "/var/sentora/hostdata/thanhwebseo247/public_html/4words_wecan-group_info"
+	SEARCH  5:"C:\\xampp\\htdocs\\4words" =======================> "\/var\/sentora\/hostdata\/thanhwebseo247\/public_html\/4words_wecan-group_info"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5C4words" ==================> "%2Fvar%2Fsentora%2Fhostdata%2Fthanhwebseo247%2Fpublic_html%2F4words_wecan-group_info"
+	SEARCH  7:"//localhost:8888/4words" =========================> "//4words.wecan-group.info"
+	SEARCH  8:"\/\/localhost:8888\/4words" ======================> "\/\/4words.wecan-group.info"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F4words" =================> "%2F%2F4words.wecan-group.info"
+	SEARCH 10:"https://4words.wecan-group.info" =================> "http://4words.wecan-group.info"
+	SEARCH 11:"https:\/\/4words.wecan-group.info" ===============> "http:\/\/4words.wecan-group.info"
+	SEARCH 12:"https%3A%2F%2F4words.wecan-group.info" ===========> "http%3A%2F%2F4words.wecan-group.info"
+
+EVALUATE TABLE: "ws_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ws_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ws_options"______________________________________[ROWS:   265][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/4words/" =========================> "/var/sentora/hostdata/thanhwebseo247/public_html/4words_wecan-group_info/"
+	SEARCH  2:"C:\/xampp\/htdocs\/4words\/" =====================> "\/var\/sentora\/hostdata\/thanhwebseo247\/public_html\/4words_wecan-group_info\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2F4words%2F" ===============> "%2Fvar%2Fsentora%2Fhostdata%2Fthanhwebseo247%2Fpublic_html%2F4words_wecan-group_info%2F"
+	SEARCH  4:"C:\xampp\htdocs\4words" ==========================> "/var/sentora/hostdata/thanhwebseo247/public_html/4words_wecan-group_info"
+	SEARCH  5:"C:\\xampp\\htdocs\\4words" =======================> "\/var\/sentora\/hostdata\/thanhwebseo247\/public_html\/4words_wecan-group_info"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5C4words" ==================> "%2Fvar%2Fsentora%2Fhostdata%2Fthanhwebseo247%2Fpublic_html%2F4words_wecan-group_info"
+	SEARCH  7:"//localhost:8888/4words" =========================> "//4words.wecan-group.info"
+	SEARCH  8:"\/\/localhost:8888\/4words" ======================> "\/\/4words.wecan-group.info"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F4words" =================> "%2F%2F4words.wecan-group.info"
+	SEARCH 10:"https://4words.wecan-group.info" =================> "http://4words.wecan-group.info"
+	SEARCH 11:"https:\/\/4words.wecan-group.info" ===============> "http:\/\/4words.wecan-group.info"
+	SEARCH 12:"https%3A%2F%2F4words.wecan-group.info" ===========> "http%3A%2F%2F4words.wecan-group.info"
+
+EVALUATE TABLE: "ws_postmeta"_____________________________________[ROWS:  7887][PG:   3][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/4words/" =========================> "/var/sentora/hostdata/thanhwebseo247/public_html/4words_wecan-group_info/"
+	SEARCH  2:"C:\/xampp\/htdocs\/4words\/" =====================> "\/var\/sentora\/hostdata\/thanhwebseo247\/public_html\/4words_wecan-group_info\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2F4words%2F" ===============> "%2Fvar%2Fsentora%2Fhostdata%2Fthanhwebseo247%2Fpublic_html%2F4words_wecan-group_info%2F"
+	SEARCH  4:"C:\xampp\htdocs\4words" ==========================> "/var/sentora/hostdata/thanhwebseo247/public_html/4words_wecan-group_info"
+	SEARCH  5:"C:\\xampp\\htdocs\\4words" =======================> "\/var\/sentora\/hostdata\/thanhwebseo247\/public_html\/4words_wecan-group_info"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5C4words" ==================> "%2Fvar%2Fsentora%2Fhostdata%2Fthanhwebseo247%2Fpublic_html%2F4words_wecan-group_info"
+	SEARCH  7:"//localhost:8888/4words" =========================> "//4words.wecan-group.info"
+	SEARCH  8:"\/\/localhost:8888\/4words" ======================> "\/\/4words.wecan-group.info"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F4words" =================> "%2F%2F4words.wecan-group.info"
+	SEARCH 10:"https://4words.wecan-group.info" =================> "http://4words.wecan-group.info"
+	SEARCH 11:"https:\/\/4words.wecan-group.info" ===============> "http:\/\/4words.wecan-group.info"
+	SEARCH 12:"https%3A%2F%2F4words.wecan-group.info" ===========> "http%3A%2F%2F4words.wecan-group.info"
+
+EVALUATE TABLE: "ws_posts"________________________________________[ROWS:   506][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/4words/" =========================> "/var/sentora/hostdata/thanhwebseo247/public_html/4words_wecan-group_info/"
+	SEARCH  2:"C:\/xampp\/htdocs\/4words\/" =====================> "\/var\/sentora\/hostdata\/thanhwebseo247\/public_html\/4words_wecan-group_info\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2F4words%2F" ===============> "%2Fvar%2Fsentora%2Fhostdata%2Fthanhwebseo247%2Fpublic_html%2F4words_wecan-group_info%2F"
+	SEARCH  4:"C:\xampp\htdocs\4words" ==========================> "/var/sentora/hostdata/thanhwebseo247/public_html/4words_wecan-group_info"
+	SEARCH  5:"C:\\xampp\\htdocs\\4words" =======================> "\/var\/sentora\/hostdata\/thanhwebseo247\/public_html\/4words_wecan-group_info"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5C4words" ==================> "%2Fvar%2Fsentora%2Fhostdata%2Fthanhwebseo247%2Fpublic_html%2F4words_wecan-group_info"
+	SEARCH  7:"//localhost:8888/4words" =========================> "//4words.wecan-group.info"
+	SEARCH  8:"\/\/localhost:8888\/4words" ======================> "\/\/4words.wecan-group.info"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F4words" =================> "%2F%2F4words.wecan-group.info"
+	SEARCH 10:"https://4words.wecan-group.info" =================> "http://4words.wecan-group.info"
+	SEARCH 11:"https:\/\/4words.wecan-group.info" ===============> "http:\/\/4words.wecan-group.info"
+	SEARCH 12:"https%3A%2F%2F4words.wecan-group.info" ===========> "http%3A%2F%2F4words.wecan-group.info"
+
+EVALUATE TABLE: "ws_term_relationships"___________________________[ROWS:    24][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/4words/" =========================> "/var/sentora/hostdata/thanhwebseo247/public_html/4words_wecan-group_info/"
+	SEARCH  2:"C:\/xampp\/htdocs\/4words\/" =====================> "\/var\/sentora\/hostdata\/thanhwebseo247\/public_html\/4words_wecan-group_info\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2F4words%2F" ===============> "%2Fvar%2Fsentora%2Fhostdata%2Fthanhwebseo247%2Fpublic_html%2F4words_wecan-group_info%2F"
+	SEARCH  4:"C:\xampp\htdocs\4words" ==========================> "/var/sentora/hostdata/thanhwebseo247/public_html/4words_wecan-group_info"
+	SEARCH  5:"C:\\xampp\\htdocs\\4words" =======================> "\/var\/sentora\/hostdata\/thanhwebseo247\/public_html\/4words_wecan-group_info"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5C4words" ==================> "%2Fvar%2Fsentora%2Fhostdata%2Fthanhwebseo247%2Fpublic_html%2F4words_wecan-group_info"
+	SEARCH  7:"//localhost:8888/4words" =========================> "//4words.wecan-group.info"
+	SEARCH  8:"\/\/localhost:8888\/4words" ======================> "\/\/4words.wecan-group.info"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F4words" =================> "%2F%2F4words.wecan-group.info"
+	SEARCH 10:"https://4words.wecan-group.info" =================> "http://4words.wecan-group.info"
+	SEARCH 11:"https:\/\/4words.wecan-group.info" ===============> "http:\/\/4words.wecan-group.info"
+	SEARCH 12:"https%3A%2F%2F4words.wecan-group.info" ===========> "http%3A%2F%2F4words.wecan-group.info"
+
+EVALUATE TABLE: "ws_term_taxonomy"________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/4words/" =========================> "/var/sentora/hostdata/thanhwebseo247/public_html/4words_wecan-group_info/"
+	SEARCH  2:"C:\/xampp\/htdocs\/4words\/" =====================> "\/var\/sentora\/hostdata\/thanhwebseo247\/public_html\/4words_wecan-group_info\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2F4words%2F" ===============> "%2Fvar%2Fsentora%2Fhostdata%2Fthanhwebseo247%2Fpublic_html%2F4words_wecan-group_info%2F"
+	SEARCH  4:"C:\xampp\htdocs\4words" ==========================> "/var/sentora/hostdata/thanhwebseo247/public_html/4words_wecan-group_info"
+	SEARCH  5:"C:\\xampp\\htdocs\\4words" =======================> "\/var\/sentora\/hostdata\/thanhwebseo247\/public_html\/4words_wecan-group_info"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5C4words" ==================> "%2Fvar%2Fsentora%2Fhostdata%2Fthanhwebseo247%2Fpublic_html%2F4words_wecan-group_info"
+	SEARCH  7:"//localhost:8888/4words" =========================> "//4words.wecan-group.info"
+	SEARCH  8:"\/\/localhost:8888\/4words" ======================> "\/\/4words.wecan-group.info"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F4words" =================> "%2F%2F4words.wecan-group.info"
+	SEARCH 10:"https://4words.wecan-group.info" =================> "http://4words.wecan-group.info"
+	SEARCH 11:"https:\/\/4words.wecan-group.info" ===============> "http:\/\/4words.wecan-group.info"
+	SEARCH 12:"https%3A%2F%2F4words.wecan-group.info" ===========> "http%3A%2F%2F4words.wecan-group.info"
+
+EVALUATE TABLE: "ws_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ws_terms"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/4words/" =========================> "/var/sentora/hostdata/thanhwebseo247/public_html/4words_wecan-group_info/"
+	SEARCH  2:"C:\/xampp\/htdocs\/4words\/" =====================> "\/var\/sentora\/hostdata\/thanhwebseo247\/public_html\/4words_wecan-group_info\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2F4words%2F" ===============> "%2Fvar%2Fsentora%2Fhostdata%2Fthanhwebseo247%2Fpublic_html%2F4words_wecan-group_info%2F"
+	SEARCH  4:"C:\xampp\htdocs\4words" ==========================> "/var/sentora/hostdata/thanhwebseo247/public_html/4words_wecan-group_info"
+	SEARCH  5:"C:\\xampp\\htdocs\\4words" =======================> "\/var\/sentora\/hostdata\/thanhwebseo247\/public_html\/4words_wecan-group_info"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5C4words" ==================> "%2Fvar%2Fsentora%2Fhostdata%2Fthanhwebseo247%2Fpublic_html%2F4words_wecan-group_info"
+	SEARCH  7:"//localhost:8888/4words" =========================> "//4words.wecan-group.info"
+	SEARCH  8:"\/\/localhost:8888\/4words" ======================> "\/\/4words.wecan-group.info"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F4words" =================> "%2F%2F4words.wecan-group.info"
+	SEARCH 10:"https://4words.wecan-group.info" =================> "http://4words.wecan-group.info"
+	SEARCH 11:"https:\/\/4words.wecan-group.info" ===============> "http:\/\/4words.wecan-group.info"
+	SEARCH 12:"https%3A%2F%2F4words.wecan-group.info" ===========> "http%3A%2F%2F4words.wecan-group.info"
+
+EVALUATE TABLE: "ws_usermeta"_____________________________________[ROWS:    31][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/4words/" =========================> "/var/sentora/hostdata/thanhwebseo247/public_html/4words_wecan-group_info/"
+	SEARCH  2:"C:\/xampp\/htdocs\/4words\/" =====================> "\/var\/sentora\/hostdata\/thanhwebseo247\/public_html\/4words_wecan-group_info\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2F4words%2F" ===============> "%2Fvar%2Fsentora%2Fhostdata%2Fthanhwebseo247%2Fpublic_html%2F4words_wecan-group_info%2F"
+	SEARCH  4:"C:\xampp\htdocs\4words" ==========================> "/var/sentora/hostdata/thanhwebseo247/public_html/4words_wecan-group_info"
+	SEARCH  5:"C:\\xampp\\htdocs\\4words" =======================> "\/var\/sentora\/hostdata\/thanhwebseo247\/public_html\/4words_wecan-group_info"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5C4words" ==================> "%2Fvar%2Fsentora%2Fhostdata%2Fthanhwebseo247%2Fpublic_html%2F4words_wecan-group_info"
+	SEARCH  7:"//localhost:8888/4words" =========================> "//4words.wecan-group.info"
+	SEARCH  8:"\/\/localhost:8888\/4words" ======================> "\/\/4words.wecan-group.info"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F4words" =================> "%2F%2F4words.wecan-group.info"
+	SEARCH 10:"https://4words.wecan-group.info" =================> "http://4words.wecan-group.info"
+	SEARCH 11:"https:\/\/4words.wecan-group.info" ===============> "http:\/\/4words.wecan-group.info"
+	SEARCH 12:"https%3A%2F%2F4words.wecan-group.info" ===========> "http%3A%2F%2F4words.wecan-group.info"
+
+EVALUATE TABLE: "ws_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/4words/" =========================> "/var/sentora/hostdata/thanhwebseo247/public_html/4words_wecan-group_info/"
+	SEARCH  2:"C:\/xampp\/htdocs\/4words\/" =====================> "\/var\/sentora\/hostdata\/thanhwebseo247\/public_html\/4words_wecan-group_info\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2F4words%2F" ===============> "%2Fvar%2Fsentora%2Fhostdata%2Fthanhwebseo247%2Fpublic_html%2F4words_wecan-group_info%2F"
+	SEARCH  4:"C:\xampp\htdocs\4words" ==========================> "/var/sentora/hostdata/thanhwebseo247/public_html/4words_wecan-group_info"
+	SEARCH  5:"C:\\xampp\\htdocs\\4words" =======================> "\/var\/sentora\/hostdata\/thanhwebseo247\/public_html\/4words_wecan-group_info"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5C4words" ==================> "%2Fvar%2Fsentora%2Fhostdata%2Fthanhwebseo247%2Fpublic_html%2F4words_wecan-group_info"
+	SEARCH  7:"//localhost:8888/4words" =========================> "//4words.wecan-group.info"
+	SEARCH  8:"\/\/localhost:8888\/4words" ======================> "\/\/4words.wecan-group.info"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F4words" =================> "%2F%2F4words.wecan-group.info"
+	SEARCH 10:"https://4words.wecan-group.info" =================> "http://4words.wecan-group.info"
+	SEARCH 11:"https:\/\/4words.wecan-group.info" ===============> "http:\/\/4words.wecan-group.info"
+	SEARCH 12:"https%3A%2F%2F4words.wecan-group.info" ===========> "http%3A%2F%2F4words.wecan-group.info"
+
+EVALUATE TABLE: "ws_yoast_seo_links"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ws_yoast_seo_meta"_______________________________[ROWS:   129][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/4words/" =========================> "/var/sentora/hostdata/thanhwebseo247/public_html/4words_wecan-group_info/"
+	SEARCH  2:"C:\/xampp\/htdocs\/4words\/" =====================> "\/var\/sentora\/hostdata\/thanhwebseo247\/public_html\/4words_wecan-group_info\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2F4words%2F" ===============> "%2Fvar%2Fsentora%2Fhostdata%2Fthanhwebseo247%2Fpublic_html%2F4words_wecan-group_info%2F"
+	SEARCH  4:"C:\xampp\htdocs\4words" ==========================> "/var/sentora/hostdata/thanhwebseo247/public_html/4words_wecan-group_info"
+	SEARCH  5:"C:\\xampp\\htdocs\\4words" =======================> "\/var\/sentora\/hostdata\/thanhwebseo247\/public_html\/4words_wecan-group_info"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5C4words" ==================> "%2Fvar%2Fsentora%2Fhostdata%2Fthanhwebseo247%2Fpublic_html%2F4words_wecan-group_info"
+	SEARCH  7:"//localhost:8888/4words" =========================> "//4words.wecan-group.info"
+	SEARCH  8:"\/\/localhost:8888\/4words" ======================> "\/\/4words.wecan-group.info"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2F4words" =================> "%2F%2F4words.wecan-group.info"
+	SEARCH 10:"https://4words.wecan-group.info" =================> "http://4words.wecan-group.info"
+	SEARCH 11:"https:\/\/4words.wecan-group.info" ===============> "http:\/\/4words.wecan-group.info"
+	SEARCH 12:"https%3A%2F%2F4words.wecan-group.info" ===========> "http%3A%2F%2F4words.wecan-group.info"
+--------------------------------------
+SCANNED:	Tables:15 	|	 Rows:8848 	|	 Cells:44874 
+UPDATED:	Tables:4 	|	 Rows:514 	|	 Cells:529 
+ERRORS:		0 
+RUNTIME:	0.473900 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""thanhwebseo247_4words""
+	UPDATE DB_USER ""4words""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache 'htaccess.orig' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Activated plugins (If they are activated) listed here will be deactivated: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 08:49:44 - RUNTIME: 0.5737 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+====================================

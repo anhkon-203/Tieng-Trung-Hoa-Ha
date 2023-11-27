@@ -1,0 +1,53 @@
+.footer-top {
+  background-image: url(../images/bg-footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 93px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 99999;
+  width: 100%; }
+  .footer-top .list-footer {
+    padding: 28px 0px; }
+    .footer-top .list-footer ul {
+      padding-right: 35px; }
+      .footer-top .list-footer ul li {
+        display: inline-block;
+        padding-right: 10px; }
+      .footer-top .list-footer ul li:first-child a {
+        width: 145px;
+        height: 35px;
+        font-size: 16px;
+        color: #fff;
+        border: 1px solid #fff;
+        display: block;
+        text-align: center;
+        line-height: 35px;
+        font-weight: 500;
+        border-radius: 30px;
+        transition: all .3s; }
+        .footer-top .list-footer ul li:first-child a:hover {
+          background: #fff;
+          color: #9f594c; }
+      .footer-top .list-footer ul li:last-child a {
+        display: block;
+        font-size: 16px;
+        color: #fff;
+        width: 35px;
+        height: 35px;
+        text-align: center;
+        line-height: 35px;
+        border: 1.5px solid #fff;
+        border-radius: 50%;
+        transition: all .3s; }
+        .footer-top .list-footer ul li:last-child a:hover {
+          background: #fff;
+          color: #9f594c; }
+  .footer-top .coppy {
+    line-height: 93px;
+    color: #fff;
+    font-size: 14px;
+    text-align: right; }
+
+/*# sourceMappingURL=footer.css.map */

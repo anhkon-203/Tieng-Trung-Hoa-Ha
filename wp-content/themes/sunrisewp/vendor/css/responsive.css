@@ -1,0 +1,526 @@
+
+@media screen and (min-width: 1900px) {
+	.main-tien-trinh .list-date-bd{
+		    padding: 30px 10px 45px 75px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.container {
+		max-width: 1140px;
+	}
+}
+@media screen and (min-width: 1280px) {
+	.container {
+		max-width: 1200px;
+	}
+}
+@media screen and (min-width: 1500px) {
+	.container{
+		max-width:1365px;
+	}
+}
+
+@media screen and (max-width: 1500px) {
+	.time-line .tien-trinh{
+		padding:15px 20px;
+		width: 90%;
+	}
+	.main-tien-trinh .list-date-bd{
+		padding: 30px 30px 30px 50px;
+	}
+	.main-dieu-khoan .list-menu-dk ul li{
+		width: 200px;
+	}
+}
+
+@media screen and (max-width: 1367px) {
+	.box-ct{
+		margin-bottom: 50px;
+	}
+	.box-ct .hover img{
+		height: 500px;
+	}
+	.title{
+		font-size: 23px;
+	}
+	.main-tien-trinh .list-date-bd{
+		height: 99%;
+	}
+}
+
+@media screen and (max-width: 1201px) {
+	.time-line .tien-trinh{
+		width: 95%;
+	}
+	.main-thanh-toan .box-dv .form-dv ul li{
+		width: 50%;
+	}
+	.main-chon-cho .box-gv-gc{
+		padding:20px 30px;
+	}
+}
+
+/* 1199 */
+
+@media screen and (max-width: 1199.5px) {
+	.full-search .input-search{
+		width: 80%;
+		margin: 50% auto;
+	}
+	.full-search .input-search {
+		position: relative;
+	}
+	.full-search .input-search input{
+		font-size: 12px;
+		width: calc(100% - 0px);
+	}
+	.full-search .input-search button{
+		font-size: 16px;
+		width: 70px;
+		position: absolute;
+		top: 0;
+		right: 0;
+		border: 0;
+	}
+	.full-search .times-search{
+		top: 20px;
+		right: 20px;
+	}
+	.box-ct .hover img{
+		height: 450px;
+	}
+	.w-content{
+		flex: 0 0 30.333333%;
+		max-width: 30.333333%;
+	}
+	.w-content-8{
+		flex: 0 0 69.666667%;
+		max-width: 69.666667%;
+	}
+	.box-ct{
+		margin-bottom: 30px;
+	}
+	.box-ct .text-boxct h3 a{
+		font-size: 20px;
+	}
+	.main-tien-trinh{
+		height: 100vh;
+		overflow-y: scroll;
+	}
+	.main-tien-trinh .list-date-bd{
+		padding:20px;
+	}
+	.main-tien-trinh .list-date-bd .box-date-top ul li .no-date{
+		font-size: 14px;
+	}
+	.main-tien-trinh .list-date-bd .box-date-top h3{
+		font-size: 17px;
+	}
+	.time-line .tien-trinh{
+		width: 100%;
+	}
+	.time-line .tien-trinh .list-tt{
+		width: 100%;
+	}
+	.time-line .tien-trinh span{
+		font-size: 15px;
+		line-height: 1.5;
+	}
+	.main-dieu-khoan .list-menu-dk ul{
+		padding-left: 0;
+		justify-content: center;
+		padding:0px 15px;
+	}
+	.main-dieu-khoan .quy-trinh-gd .text-quy-trinh{
+		width: 80%;
+	}
+	.main-dieu-khoan .quy-trinh-gd .active-sidebar{
+		width: 210px;
+	}
+	.main-hoan-thanh .hoan-thanh .box-hoan-thanh-dv .w-htdv{
+		width: 80%;
+	}
+	.main-hoan-thanh .tien-trinh .list-tt{
+		width: 80%;
+	}
+	.main-thanh-toan{
+		padding-bottom: 250px;
+	}
+	.main-thanh-toan .box-dv .form-dv ul li .container-label2 .checkmark{
+		transform:translate(0% , -50%);
+		top: 50%;
+	}
+	.main-contact .contact-container{
+		padding-left: 50px;
+		padding-right: 50px
+	}
+	.main-chon-cho .box-gv-gc{
+		padding:20px;
+	}
+	.main-chon-cho .box-gv-gc .gia-ve-ghe .gia-ve li{
+		padding-right: 10px;
+		font-size: 14px;
+	}
+	.main-chon-cho .box-gv-gc .gia-ve-ghe .ghe-kb{
+		padding-left: 40px;
+	}
+	.main-chon-cho .box-gv-gc .tinh-trang-ghe .list-ghe .tt-g{
+		font-size: 16px;
+	}
+	.main-chon-cho .box-gv-gc .tinh-trang-ghe .list-ghe ul li{
+		padding-right: 10px;
+	}
+}
+
+/* 991 */
+
+@media screen and (max-width: 991.5px) {
+	.main-dieu-khoan .quy-trinh-gd .text-quy-trinh{
+		width: 100%;
+		padding-left: 0;
+	}
+	.row-vt{
+		width: 100%;
+		display: flex;
+		flex-flow: row wrap;
+		margin: auto;
+	}
+	.col-vt{
+		order: 2;
+	}
+	.icon-mobile , .search-mobile , .menu-mobile , .icon-menu{
+		display: block !important;
+	}
+	.box-ct .hover img{
+		height: 350px;
+	}
+	.box-ct .text-boxct{
+		padding:0px 15px;
+		padding-bottom: 15px;
+	}
+	.box-ct .text-boxct h3 a{
+		font-size: 15px;
+		line-height: 1.5;
+	}
+	.header-top .list-nn , .header-top .menu-search{
+		display: none;
+	}
+	.header-top{
+		height: auto;
+	}
+	.header-top .logo-header{
+		padding:10px 0px;
+	}
+	.footer-top .list-footer ul{
+		padding-right: 10px;
+	}
+	.w-content-8{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.main-tien-trinh .list-ct-content .row{
+		justify-content: center !important;
+	}
+	.time-line .tien-trinh{
+		display: block;
+		text-align: center;
+	}
+	.time-line .tien-trinh .list-tt{
+		padding:20px 0px;
+	}
+	.main-tien-trinh .list-date-bd{
+		margin-top: 10px;
+	}
+	.main-tien-trinh .list-date-bd{
+		border-radius: 10px;
+	}
+	.time-line .tien-trinh{
+		border-radius: 10px;
+	}
+	.main-dieu-khoan .list-menu-dk ul li{
+		width: auto;
+	}
+	.main-dieu-khoan .list-menu-dk ul li a{
+		padding:10px 10px;
+	}
+	.main-hoan-thanh .tien-trinh .list-tt{
+		width: 100%;
+	}
+	.main-hoan-thanh .hoan-thanh .box-hoan-thanh-dv .w-htdv{
+		width: 95%;
+	}
+	.main-hoan-thanh .hoan-thanh .box-hoan-thanh-dv .w-htdv .box-tt ul li{
+		font-size: 15px;
+	}
+	.main-hoan-thanh .hoan-thanh .tt-ht{
+		color: #333;
+	}
+	.sidebar_thanh-toan{
+		margin-top: 30px;
+	}
+	.main-contact .contact-container{
+		padding-left: 30px;
+		padding-right: 30px
+	}
+	.main-contact .contact-container .form-dk-contact{
+		margin-left: 0;
+	}
+	.main-contact .contact-container .form-dk-contact{
+		padding:30px 30px;
+	}
+	.main-contact{
+		height: auto;
+	}
+	.main-chon-cho .box-gv-gc .gia-ve-ghe , .main-chon-cho .box-gv-gc .tinh-trang-ghe{
+		display: block;
+	}
+	.main-chon-cho .box-gv-gc .gia-ve-ghe .ghe-kb{
+		padding-left: 0;
+		padding-top: 10px;
+	}
+	.main-chon-cho .box-gv-gc .tinh-trang-ghe .contniu{
+		display: block;
+	}
+	.main-chon-cho .box-gv-gc .tinh-trang-ghe .list-ghe ul li{
+		font-size: 14px;
+	}
+	.main-chon-cho .box-gv-gc .tinh-trang-ghe .list-ghe .tt-g{
+		padding-right: 5px;
+	}
+	.main-chon-cho .box-gv-gc .tinh-trang-ghe .list-ghe ul{
+		padding-right: 10px;
+	}
+	.main-chon-cho .box-gv-gc .tinh-trang-ghe .list-ghe{
+		padding-bottom: 10px;
+	}
+	.main-chon-cho{
+		padding-top: 0;
+	}
+	.chon-ghe-content{
+		overflow: hidden;
+		overflow-y: scroll;
+		overflow-x: scroll;
+		height: 800px;
+		width: 100%;
+		padding-bottom: 100px;
+		margin-top: 30px;
+	}
+	.chon-ghe-content .images-ghe{
+		    max-width: initial;
+		width: 975px;
+		height: 1258px;
+		margin: 0 auto;
+		margin-top: 55px;
+	}
+	.chon-ghe-content .images-ghe-2{
+		max-width: initial;
+		height: 1500px;
+		width: 1200px;
+	}
+}
+
+/* 767 */
+
+@media screen and (max-width: 767.5px) {
+	.logo-header img{
+		width: 180px;
+	}
+	.w-content{
+		flex: 0 0 100%;
+		max-width: 100%;
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+	.list-ct-content .row{
+		margin:0px -15px !important;
+	}
+	.box-ct .hover img{
+		height: auto;
+	}
+	.list-ct-content{
+		margin-top: 30px;
+	}
+	.select-date{
+		justify-content: left;
+		padding-top: 20px;
+	}
+	.footer-top .coppy{
+		line-height: 0;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	.footer-top .list-footer{
+		padding:20px 0px;
+	}
+	.footer-top{
+		height: auto;
+	}
+	.pp-mv .mv-content{
+		width: 90%;
+	}
+	.pp-mv .mv-content h2{
+		padding:0px 20px;
+	}
+	.pp-mv .mv-content .box-mv a{
+		height: auto;
+		line-height: 1.5;
+		padding:10px 10px;
+	}
+	.time-line .tien-trinh{
+		background:none;
+		overflow: hidden;
+		overflow-x: scroll;
+		margin-bottom: 30px;
+	}
+	.time-line .tien-trinh .list-tt{
+		width: 800px;
+	}
+	.w-content-8{
+		padding:0px 15px !important;
+	}
+	.main-tien-trinh .list-date-bd .box-date-top ul li{
+		width: 50%;
+	}
+	.main-tien-trinh .list-date-bd .box-date-top ul li:nth-child(2n+2){
+		border:0;
+	}
+	.main-tien-trinh .list-date-bd .box-date-top ul li:first-child{
+		text-align: center;
+	}
+	.main-tien-trinh .list-date-bd .box-date-top ul li:first-child .time-date{
+		margin:0 auto;
+		margin-bottom: 15px;
+	}
+	.main-tien-trinh .list-date-bd .box-date-top ul li .time-date{
+		width: 120px;
+	}
+	.main-dieu-khoan .list-menu-dk ul{
+		justify-content: space-between;
+	}
+	.main-dieu-khoan .list-menu-dk ul li{
+		width: 50%;
+		padding:10px 0px;
+	}
+	.main-dieu-khoan .list-menu-dk ul li a{
+		border:0;
+	}
+	.main-dieu-khoan .list-menu-dk ul li:last-child a{
+		border-right: 0;
+	}
+	.main-dieu-khoan .quy-trinh-gd{
+		padding-top: 30px;
+	}
+	.main-dieu-khoan .quy-trinh-gd .active-sidebar{
+		right: 15px;
+	}
+	.main-dieu-khoan .quy-trinh-gd .sidebar_tt ul li a{
+		background: #e1e1e1;
+		color: #333;
+	}
+	.main-dieu-khoan .quy-trinh-gd .text-quy-trinh{
+		margin-top: 20px;
+	}
+	.main-hoan-thanh{
+		height: auto;
+		padding-bottom: 200px;
+	}
+	.main-hoan-thanh .hoan-thanh .box-hoan-thanh-dv .w-htdv h3{
+		font-size: 25px;
+	}
+	.main-hoan-thanh .hoan-thanh .box-hoan-thanh-dv .w-htdv .box-tt{
+		height: auto;
+	}
+	.main-hoan-thanh .hoan-thanh .box-hoan-thanh-dv .w-htdv .box-tt ul{
+		display: block;
+		text-align: center;
+	}
+	.main-hoan-thanh .hoan-thanh .box-hoan-thanh-dv .w-htdv .box-tt ul li{
+		width: 100%;
+		padding:10px 0px;
+	}
+	.main-hoan-thanh .hoan-thanh .box-hoan-thanh-dv .w-htdv .box-tt ul li:last-child{
+		text-align: center;
+	}
+	.main-hoan-thanh .hoan-thanh .box-hoan-thanh-dv .w-htdv .address-tt ul li{
+		width: 50%;
+		line-height: 1.5;
+	}
+	.main-hoan-thanh .hoan-thanh .box-hoan-thanh-dv .w-htdv .address-tt ul li a{
+		font-size: 13px;
+	}
+	.main-hoan-thanh .hoan-thanh .box-hoan-thanh-dv .w-htdv .address-tt p{
+		line-height: 1.5;
+	}
+	.main-hoan-thanh .hoan-thanh .box-hoan-thanh-dv .w-htdv .address-tt ul{
+		    padding: 10px 0px 20px 0px;
+	}
+	.main-hoan-thanh .hoan-thanh .tt-ht{
+		margin:0;
+		margin-bottom: 35px;
+	}
+	.main-thanh-toan .box-thanh-toan h3{
+		padding:0px 15px;
+		margin-bottom: 20px;
+	}
+	.main-thanh-toan .box-thanh-toan .table-thanh-toan table tr th{
+		padding:15px;
+	}
+	.main-thanh-toan .box-thanh-toan .table-thanh-toan table tr td{
+		padding:25px 15px;
+	}
+	.main-thanh-toan .box-thanh-toan .tong-tt{
+		padding:0px 15px;
+	}
+	.main-thanh-toan .box-dv .form-dv , .main-thanh-toan .form-dk , .sidebar_thanh-toan{
+		padding:20px 15px;
+	}
+	.main-thanh-toan .box-dv .form-dv ul li .container-label2{
+		font-size: 14px;
+	}
+	.main-thanh-toan .box-dv .form-dv ul li{
+		padding:12.5px 0px;
+		line-height: 1.5;
+	}
+	.main-thanh-toan{
+		padding-bottom: 150px;
+	}
+	.form-contact{
+		margin-top: 30px;
+	}
+	.main-contact .contact-container{
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom:50px;
+	}
+	.main-contact .contact-container .form-dk-contact{
+		padding:15px;
+	}
+	.main-chon-cho .title-ct p{
+		padding-left: 0;
+		line-height: 1.5;
+	}
+	.main-chon-cho .box-gv-gc .gia-ve-ghe .gia-ve li{
+		padding-right: 12px;
+		font-size: 14px;
+		padding-bottom: 10px;
+	}
+	.main-chon-cho .box-gv-gc .tinh-trang-ghe .list-ghe{
+		display: block;
+	}
+	.main-chon-cho .box-gv-gc .tinh-trang-ghe .list-ghe .tt-g{
+		padding:10px 0px;
+		display: block;
+	}
+	.main-chon-cho .box-gv-gc .tinh-trang-ghe .list-ghe ul li{
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.main-chon-cho .text-tang .tang li{
+		width: 33%;
+	}
+	.main-chon-cho .text-tang .tang li a{
+		width: 100%;
+	}
+	
+}
